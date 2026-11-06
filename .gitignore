@@ -1,0 +1,19 @@
+# SEGA material and anything generated from it must never be committed
+third_party/
+build/
+romdisk/*.bin
+romdisk.img
+*.elf
+*.cdi
+*.iso
+*.o
+# video capture artefacts
+seg_*.mkv
+tele_*.log
+video_only.mp4
+audio.wav
+*.mp4
+cursor_ref.png
+title.png
+video_range.txt
+__pycache__/
